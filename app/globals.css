@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 924px) {
+    .main-div {
+        flex-direction: column;
+        padding: 0;
+    }
+    .product-div {
+        width: 50%;
+        margin: 2px 0;
+        flex-direction: row;
+    }
+} 
+
+@media (max-width: 624px) {
+    .prod-det {
+        width: 50%;
+        height: 70%;
+    }
+}
